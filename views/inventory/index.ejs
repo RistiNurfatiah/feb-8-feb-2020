@@ -1,0 +1,25 @@
+<html>
+    <%- include('../layout/header'); -%>
+<body>
+    <center>
+        <br><br>
+    <div class="kotak">
+       <h1>Loginn</h1>
+       <form action="http://localhost:3000/inventory/store" method="POST">
+            <br><br>
+            <div class="form">
+              <label for="email"></label>
+              <input type="text" class="form-control" id="email" placeholder="masukan email">
+            </div>
+            <br>
+            <div class="form">
+              <label for="password"></label>
+              <input type="password" class="form-control" id="password" placeholder="masukan password">
+            </div>
+            <br><BR><BR>
+            <button type="submit" class="btn btn-info">SUBMIT</button>
+          </form>
+          <a href="register" class="change-login">Belom punya akun</a>
+    </div>
+</body>
+</html>
